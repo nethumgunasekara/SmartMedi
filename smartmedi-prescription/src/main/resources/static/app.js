@@ -9,9 +9,7 @@ const cache = {
 };
 
 
-/* =========================
-   UTILITY
-   ========================= */
+/*UTILITY*/
 
 function esc(value) {
 
@@ -95,9 +93,7 @@ async function api(url, options = {}) {
 }
 
 
-/* =========================
-   LOGIN
-   ========================= */
+/*LOGIN*/
 
 function renderLogin() {
 
@@ -311,9 +307,7 @@ function logout() {
 }
 
 
-/* =========================
-   MAIN SHELL
-   ========================= */
+/*MAIN SHELL*/
 
 function renderShell() {
 
@@ -474,9 +468,7 @@ function show(view) {
 }
 
 
-/* =========================
-   DASHBOARD
-   ========================= */
+/*DASHBOARD*/
 
 async function dashboard() {
 
@@ -804,9 +796,7 @@ function renderDashboardData() {
 }
 
 
-/* =========================
-   PRESCRIPTIONS
-   ========================= */
+/*PRESCRIPTIONS*/
 
 function prescriptions() {
 
@@ -967,9 +957,7 @@ function getStatusClass(status) {
 }
 
 
-/* =========================
-   PRESCRIPTION TABLE
-   ========================= */
+/*PRESCRIPTION TABLE*/
 
 function renderPrescriptionTable() {
 
@@ -1162,9 +1150,7 @@ function renderPrescriptionTable() {
 }
 
 
-/* =========================
-   APPROVE PRESCRIPTION
-   ========================= */
+/*APPROVE PRESCRIPTION*/
 
 async function approvePrescription(id) {
 
@@ -1206,9 +1192,7 @@ async function approvePrescription(id) {
 }
 
 
-/* =========================
-   PHARMACIST VERIFICATION
-   ========================= */
+/*PHARMACIST VERIFICATION*/
 
 function pharmacistVerification() {
 
@@ -1413,9 +1397,7 @@ async function verifyPrescriptionCode(code) {
 }
 
 
-/* =========================
-   QR GENERATION
-   ========================= */
+/* QR GENERATION*/
 
 function showQrCode(id) {
 
@@ -1533,9 +1515,7 @@ function showQrCode(id) {
 }
 
 
-/* =========================
-   QR SCANNER
-   ========================= */
+/*QR SCANNER*/
 
 function openQrScanner() {
 
@@ -1648,9 +1628,7 @@ function openQrScanner() {
 }
 
 
-/* =========================
-   PRESCRIPTION MODAL
-   ========================= */
+/*PRESCRIPTION MODAL*/
 
 function generateMedicineId() {
 
@@ -2253,9 +2231,7 @@ function removeMedicineRow(button) {
 }
 
 
-/* =========================
-   SAVE PRESCRIPTION
-   ========================= */
+/*SAVE PRESCRIPTION*/
 
 async function savePrescription(
     event,
@@ -2638,9 +2614,7 @@ async function deletePrescription(id) {
 }
 
 
-/* =========================
-   PRESCRIPTION DETAILS
-   ========================= */
+/*PRESCRIPTION DETAILS*/
 
 function showPrescription(p) {
 
@@ -3221,9 +3195,7 @@ function showPrescription(p) {
 }
 
 
-/* =========================
-   APPROVE FROM DETAILS
-   ========================= */
+/*APPROVE FROM DETAILS*/
 
 async function approveFromDetails(id) {
 
@@ -3260,9 +3232,7 @@ async function approveFromDetails(id) {
 }
 
 
-/* =========================
-   DISPENSING
-   ========================= */
+/*DISPENSING*/
 
 async function dispenseMedicine(
     prescriptionId,
@@ -3332,9 +3302,7 @@ async function dispenseMedicine(
 }
 
 
-/* =========================
-   MODAL
-   ========================= */
+/* MODAL */
 
 async function closeModal() {
 
@@ -3366,9 +3334,7 @@ async function closeModal() {
 }
 
 
-/* =========================
-   START
-   ========================= */
+/*START */
 
 function init() {
 
